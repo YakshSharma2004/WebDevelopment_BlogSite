@@ -1,0 +1,12 @@
+.flexed{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    font-size: 150%;
+    flex-wrap: wrap;
+    padding-left: 40%;
+}
+#nameofthepage{
+    font-size: 200%;
+    padding-bottom: 1rem;
+}
