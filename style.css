@@ -9,4 +9,8 @@
 #nameofthepage{
     font-size: 200%;
     padding-bottom: 1rem;
+    color: aliceblue;
+}
+body{
+    background: linear-gradient(90deg,rgb(30, 6, 100),rgb(70, 3, 65));
 }

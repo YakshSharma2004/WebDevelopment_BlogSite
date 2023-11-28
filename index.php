@@ -21,5 +21,26 @@
             </div>
             </div>
         </header>
+        <div id="blogbody">
+            <?php
+            require_once('abstractDAO.php');
+            class userDAO extends abstractDAO {
+                function __construct() {
+                    try{
+                        parent::__construct();
+                    } catch(mysqli_sql_exception $e){
+                        throw $e;
+                    }
+                }
+            }
+            $user = new userDAO();
+            $user = $user->__construct();
+            ?>
+            <div class="blog"></div>
+            <div class="blog"></div>
+            <div class="blog"></div>
+            <div class="blog"></div>
+            <div class="blog"></div>
+        </div>
     </body>
 </html>
