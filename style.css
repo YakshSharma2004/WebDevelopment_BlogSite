@@ -11,6 +11,21 @@
     padding-bottom: 1rem;
     color: aliceblue;
 }
+.blogtitlecontainerbig{
+    display: flex;
+    flex-direction: column;
+
+}
+.blogtitlecontainersmall{
+    display: flex;
+    flex-direction: column ;
+    padding-left: 40%;
+    padding-right: 50%;
+    
+}
+.blogtitle,.blogdata{
+    background-color: rgb(193, 44, 44);
+}
 body{
     background: linear-gradient(90deg,rgb(30, 6, 100),rgb(70, 3, 65));
 }
