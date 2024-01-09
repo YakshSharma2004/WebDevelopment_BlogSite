@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO("mysql:host=localhost;dbname=simple_blog", "root", "");
+$db = new PDO("mysql:host=localhost;dbname=assignment_02", "root", "");
 
 $keyword = $_GET["keyword"] ?? '';
 $author = $_GET["author"] ?? '';
